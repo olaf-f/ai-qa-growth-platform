@@ -1,0 +1,365 @@
+{
+  "schema_version": 1,
+  "city": "广州",
+  "reviewed_on": "2026-10-22",
+  "scope": "AI测试、大模型评测、AI测试开发；相邻AI应用开发单列",
+  "method": "人工检索公开页面并整理事实摘要。不是全量职位库，页面可见不等于雇主确认仍有HC。仅正文可核对的直接相关样本参与技能计数。",
+  "jobs": [
+    {
+      "id": "gz-coremail-aiqa-2026",
+      "company": "广东盈世计算机科技有限公司",
+      "title": "2026AI测试工程师",
+      "district": "番禺区",
+      "type": "校招",
+      "experience": "经验不限",
+      "education": "本科",
+      "salary": "15K–23K（原页展示，未说明薪资周期）",
+      "published_on": "2026-09-18",
+      "deadline": null,
+      "group": "直接相关",
+      "verification": "正文已核对",
+      "status": "页面可见，未显示截止日期",
+      "source_name": "才聚羊城 · 企业岗位页",
+      "source_url": "https://www.gzrecruit.com/jobs/recruit/detail/B5C3B708F4BCD2642337135AC7FA6403",
+      "summary": "对Agent回答、工具执行和多轮交互做测试；参与数据集、评测自动化与版本回归，按模型、检索、工具和系统层定位失败。",
+      "requirements": [
+        "测试基础；Python、JavaScript或TypeScript至少掌握一种，能编写脚本。",
+        "了解大模型、Prompt、RAG或工具调用概念；强调分析与沟通。"
+      ],
+      "preferred": [
+        "Langfuse/LangSmith、规则/人工/模型裁判评分、轨迹评测与CI/CD实践加分。",
+        "关注越权、提示注入和敏感信息泄露，个人项目可作为实践证据。"
+      ],
+      "skills": [
+        "Python/编程",
+        "Agent工具调用",
+        "RAG",
+        "Prompt",
+        "评测数据集",
+        "自动化/回归",
+        "接口/性能/安全",
+        "Bad Case定位",
+        "评测可观测性"
+      ],
+      "study_hint": "先做RAG完整项目，再补工具调用、权限测试和批量回归脚本。",
+      "last_verified_on": "2026-10-22",
+      "last_checked_on": "2026-10-22"
+    },
+    {
+      "id": "gz-yiyi-aiqa",
+      "company": "一易生成公司（原页名称）",
+      "title": "AI测试/测试开发工程师",
+      "district": "海珠区",
+      "type": "社招",
+      "experience": "正文要求1年以上相关经验（页头同时显示“不限”）",
+      "education": "未披露",
+      "salary": "12K–18K/月",
+      "published_on": null,
+      "deadline": null,
+      "group": "直接相关",
+      "verification": "正文已核对",
+      "status": "页面可见，发布时间及截止日期未披露",
+      "source_name": "琶洲算法大赛 · AI人才招聘专区",
+      "source_url": "https://www.aicompetition-pz.com/job_detail/42",
+      "summary": "以大模型产品质量为目标，建设评测方法、标准、样例集和AI辅助测试工具。",
+      "requirements": [
+        "正文出现1年以上相关工作经验；页头口径不同，投递前应确认。",
+        "需要承担评测体系和测试工具建设，而非只执行手工用例。"
+      ],
+      "preferred": [],
+      "skills": [
+        "评测数据集",
+        "自动化/回归",
+        "质量策略"
+      ],
+      "study_hint": "准备一份含评分规则、数据覆盖与失败分析的评测报告。",
+      "last_verified_on": "2026-10-22",
+      "last_checked_on": "2026-10-22"
+    },
+    {
+      "id": "gz-qwen-ai-auto-20260716",
+      "company": "阿里千问（社区发帖者描述，身份未独立核验）",
+      "title": "AI自动化测试专家",
+      "district": "广州，未披露行政区",
+      "type": "社招/专家",
+      "experience": "3年以上开发或测试开发",
+      "education": "未披露",
+      "salary": "未披露",
+      "published_on": "2026-07-16",
+      "deadline": null,
+      "group": "直接相关",
+      "verification": "正文已核对",
+      "status": "社区历史招聘帖，当前HC需核实",
+      "source_name": "测试之家 · 招聘者发帖",
+      "source_url": "https://testerhome.com/topics/44484",
+      "summary": "将Agent引入客户端自动化，覆盖用例生成、需求分析和回放；需要处理规划、工具与多Agent协作的稳定性。",
+      "requirements": [
+        "Java、Python或Go至少精通一种，有3年以上相关工程经验。",
+        "具备Agent框架与LLM应用实践；Prompt、RAG经验有明确提及。"
+      ],
+      "preferred": [
+        "测试/效能平台、GUI Agent及App自动化背景加分。"
+      ],
+      "skills": [
+        "Python/编程",
+        "Agent工具调用",
+        "RAG",
+        "Prompt",
+        "自动化/回归",
+        "GUI/App自动化"
+      ],
+      "study_hint": "适合有测试开发基础后进阶；补一个工具调用或GUI自动化项目。",
+      "last_verified_on": "2026-10-22",
+      "last_checked_on": "2026-10-22"
+    },
+    {
+      "id": "gz-qwen-quality-20260828",
+      "company": "千问事业部（社区发布者描述，身份未独立核验）",
+      "title": "AI质量效能专家",
+      "district": "广州（社区帖注明；官方链接标题另含北京，具体地点需确认）",
+      "type": "社招/专家",
+      "experience": "5年以上编码、测试与DevOps工程实践",
+      "education": "本科以上（原文口径）",
+      "salary": "未披露",
+      "published_on": "2026-08-28",
+      "deadline": null,
+      "group": "直接相关",
+      "verification": "正文已核对",
+      "status": "社区正文已读；官方详情仅能获取标题，当前HC及地点待发布方确认",
+      "source_name": "测试之家 · 社区招聘正文（含官方岗位链接）",
+      "source_url": "https://testerhome.com/topics/44713",
+      "summary": "面向AI测试平台的方案、架构和推广落地，建立质量指标与数据反馈闭环。",
+      "requirements": [
+        "需5年以上相关工程实践及研发测试工具落地经验。",
+        "有AI Coding与Agent开发实践，理解LLM、Agent、Harness及研发测试流程。",
+        "能推进跨团队方案落地，规划平台架构和CI/CD质量门禁。"
+      ],
+      "preferred": [
+        "研发、测试或DevOps产品解决方案经验优先。"
+      ],
+      "skills": [
+        "Agent工具调用",
+        "自动化/回归",
+        "质量策略",
+        "GUI/App自动化"
+      ],
+      "study_hint": "准备可量化的平台或工具落地案例，说明缺陷拦截、覆盖和投入收益；不是入门执行岗。",
+      "last_verified_on": "2026-10-22",
+      "last_checked_on": "2026-10-22",
+      "official_source_url": "https://talent.quark.cn/off-campus/position-detail?positionId=100018160003",
+      "check_note": "正文核验依据社区发布内容，官方正文尚未读取。"
+    },
+    {
+      "id": "gz-ruifu-fund-aiqa",
+      "company": "深圳市睿服科技有限公司",
+      "title": "测试（基金方向，涉及AI测试执行与平台）",
+      "district": "海珠区（搜索页面展示）",
+      "type": "社招/驻场属性待确认",
+      "experience": "搜索页显示5–10年",
+      "education": "本科（搜索页展示）",
+      "salary": "未核对",
+      "published_on": null,
+      "deadline": null,
+      "group": "待核验",
+      "verification": "仅搜索结果可见",
+      "status": "详情读取超时，未计入技能统计",
+      "source_name": "智联招聘 · 职位搜索索引",
+      "source_url": "https://www.zhaopin.com/jobdetail/CC603465980J40882898809.htm",
+      "summary": "搜索内容显示：结合业务审查AI产出的测试代码，参与测试执行与平台功能改进；要求简历说明AI能力。完整JD和用工形式仍需核对。",
+      "requirements": [
+        "需要金融业务与测试工程结合；不要仅凭AI岗位标题判断为大模型效果评测岗。"
+      ],
+      "preferred": [],
+      "skills": [
+        "Python/编程",
+        "自动化/回归",
+        "业务测试"
+      ],
+      "study_hint": "核对实际工作是AI辅助测试、模型评测，还是传统业务测试为主。",
+      "last_verified_on": "2026-10-16",
+      "last_checked_on": "2026-10-22",
+      "check_note": "2026-10-22读取超时，保留原内容与核验日期，不据此认定关闭。"
+    },
+    {
+      "id": "gz-huaweisoft-ai-app",
+      "company": "华微软件",
+      "title": "AI应用工程师",
+      "district": "天河区",
+      "type": "社招/开发方向",
+      "experience": "1年以上后端或全栈开发",
+      "education": "本科及以上，计算机相关",
+      "salary": "未披露",
+      "published_on": null,
+      "deadline": null,
+      "group": "相邻开发方向",
+      "verification": "正文已核对",
+      "status": "官网页面可见；标题含2026-12-31，需确认该日期含义",
+      "source_name": "华微软件 · 公司招聘页",
+      "source_url": "https://www.huaweisoft.com/ai%E5%BA%94%E7%94%A8%E5%B7%A5%E7%A8%8B%E5%B8%88%E5%B9%BF%E5%B7%9E102026-12-31",
+      "summary": "面向Agent应用开发与部署，需要工具、RAG、工作流、接口和单元测试，同时关注效果、稳定性与响应。此岗不是测试专岗。",
+      "requirements": [
+        "至少掌握Python/Java/JavaScript/TypeScript之一，具备后端工程经验。",
+        "数据库、容器与部署基础；熟悉RAG、Function Calling、MCP等应用技术。"
+      ],
+      "preferred": [
+        "AI编码工具与Dify/Coze等平台实践。"
+      ],
+      "skills": [
+        "Python/编程",
+        "Agent工具调用",
+        "RAG",
+        "Prompt",
+        "接口/性能/安全",
+        "部署/数据库"
+      ],
+      "study_hint": "作为工程能力参考，与AI测试岗位分开比较，不混入测试需求统计。",
+      "last_verified_on": "2026-10-22",
+      "last_checked_on": "2026-10-22"
+    },
+    {
+      "id": "gz-yineng-agent",
+      "company": "广州润和颐能软件技术有限公司",
+      "title": "智能体开发工程师",
+      "district": "广州，岗位未细分行政区",
+      "type": "社招/高级开发方向",
+      "experience": "原页标高级，未明确年数",
+      "education": "本科及以上，相关专业",
+      "salary": "未披露",
+      "published_on": null,
+      "deadline": null,
+      "group": "相邻开发方向",
+      "verification": "正文已核对",
+      "status": "官网招聘页可见，未披露更新时间",
+      "source_name": "润和颐能 · 官网人才招聘",
+      "source_url": "https://www.yineng-gz.cn/TalentAcquisition/index.aspx",
+      "summary": "构建问答、数据查询及文档类Agent，涉及模型API、工作流和业务集成；要求Python、RAG、Prompt与至少一种工作流平台。此岗以开发为主。",
+      "requirements": [
+        "具备NLP基础及Python工程能力，能完成接口与数据处理。",
+        "理解RAG、自然语言查询、信息提取等任务，并能设计调试与评估。"
+      ],
+      "preferred": [
+        "合同、政策、OCR或多轮对话相关场景经验。"
+      ],
+      "skills": [
+        "Python/编程",
+        "Agent工具调用",
+        "RAG",
+        "Prompt",
+        "部署/数据库"
+      ],
+      "study_hint": "观察开发侧需要什么质量证据，补工具调用与文档处理场景的测试。",
+      "last_verified_on": "2026-10-16",
+      "last_checked_on": "2026-10-22",
+      "check_note": "2026-10-22读取超时，保留原内容与核验日期，不据此认定关闭。"
+    },
+    {
+      "id": "gz-youdao-aiqatest-intern-expired",
+      "company": "网易有道（实习平台转载）",
+      "title": "AI测试开发实习生（历史样本）",
+      "district": "天河区",
+      "type": "实习/历史",
+      "experience": "实习",
+      "education": "本科",
+      "salary": "未披露",
+      "published_on": null,
+      "deadline": "2026-07-31",
+      "group": "历史已截止",
+      "verification": "搜索结果显示截止日期",
+      "status": "已过2026-07-31，仅作为历史需求参考",
+      "source_name": "得早学就创 · 历史实习信息",
+      "source_url": "https://www.deizao.net/m/index/shixixq/jobid/182956",
+      "summary": "历史描述侧重探索AI在QA流程中的应用，包括缺陷检查、代码审查和工具化实践。截止日期已过，不作为当前岗位推荐。",
+      "requirements": [
+        "历史能力信号：工程验证、技术调研、工具与方法沉淀。"
+      ],
+      "preferred": [],
+      "skills": [
+        "Python/编程",
+        "自动化/回归"
+      ],
+      "study_hint": "只用于了解方向，寻找同类现招职位。",
+      "last_verified_on": "2026-10-22",
+      "last_checked_on": "2026-10-22"
+    },
+    {
+      "id": "gz-qwen-drive-quality-20260828",
+      "company": "千问事业部（社区发布者描述，身份未独立核验）",
+      "title": "高级AI应用研发工程师—网盘质量方向",
+      "district": "广州（社区帖注明，具体行政区未披露）",
+      "type": "社招/质量工程",
+      "experience": "3年以上研发或质量工程经验",
+      "education": "未披露",
+      "salary": "未披露",
+      "published_on": "2026-08-28",
+      "deadline": null,
+      "group": "直接相关",
+      "verification": "正文已核对",
+      "status": "社区招聘帖可见；官方详情仅能获取标题，当前HC待确认",
+      "source_name": "测试之家 · 社区招聘正文（含官方岗位链接）",
+      "source_url": "https://testerhome.com/topics/44713",
+      "official_source_url": "https://talent.quark.cn/off-campus/position-detail?positionId=100033120003",
+      "summary": "保障网盘与Agent产品质量，用AI改进测试流程，建设质量门禁、监控及问题追踪能力。",
+      "requirements": [
+        "至少精通一门编程语言，Python、Java、TypeScript优先；能够交付工具、服务或自动化系统。",
+        "有LLM或Agent真实落地案例，理解工具调用、上下文、多Agent及评测边界。",
+        "具备功能、性能、稳定性测试及线上监控分析能力，能够定义质量指标。"
+      ],
+      "preferred": [
+        "网盘、知识库、图像视频等复杂链路及效果评测经验优先。"
+      ],
+      "skills": [
+        "Python/编程",
+        "Agent工具调用",
+        "自动化/回归",
+        "接口/性能/安全",
+        "评测可观测性",
+        "质量策略"
+      ],
+      "study_hint": "将Agent测试项目扩展到用例生成、执行与结果判定，保留门禁和线上指标设计。",
+      "last_verified_on": "2026-10-22",
+      "last_checked_on": "2026-10-22",
+      "check_note": "正文核验依据社区发布内容，官方正文尚未读取。"
+    },
+    {
+      "id": "gz-irootech-aiqa-campus-2027",
+      "company": "树根互联股份有限公司",
+      "title": "AI测试工程师（2027届校招）",
+      "district": "广州 / 长沙线下到岗，行政区未披露",
+      "type": "校招/可实习",
+      "experience": "2027届在校生；可实习3个月及以上",
+      "education": "本科 / 硕士，计算机、人工智能、软件工程等相关专业",
+      "salary": "10000–15000元（南开页面未说明周期；未与其他来源薪资合并）",
+      "published_on": "2026-08-28",
+      "deadline": null,
+      "group": "直接相关",
+      "verification": "正文已核对",
+      "status": "高校招聘正文可见，当前HC与具体薪资周期需向发布方确认；非本日新发布",
+      "source_name": "南开大学学生就业指导中心 · 企业招聘职位",
+      "source_url": "https://career.nankai.edu.cn/correcruit/content/id/117159.html",
+      "summary": "用AI辅助测试设计和缺陷定位，覆盖问答、图像与推理场景，编写自动化脚本并协同定位根因。",
+      "requirements": [
+        "2027届相关专业本科或硕士在校生，具备计算机基础。",
+        "Python、Java、Go或C++至少熟悉一种，强调真实AI项目，原文明确课程作业不算。",
+        "可广州或长沙线下实习至少3个月，能自主研究问题并推动业务落地。"
+      ],
+      "preferred": [],
+      "skills": [
+        "Python/编程",
+        "自动化/回归",
+        "接口/性能/安全",
+        "Bad Case定位"
+      ],
+      "study_hint": "先确认毕业届别与实习资格，准备真实业务AI测试项目、脚本、缺陷分析及可验证结果。",
+      "last_verified_on": "2026-10-22",
+      "last_checked_on": "2026-10-22",
+      "check_note": "南开原页职责与要求栏标题疑似倒置，按正文内容整理。另一高校公告页面标记10月25日过期，不等同本岗位雇主截止日期，未填为deadline。"
+    }
+  ],
+  "monitor": {
+    "id": "ai",
+    "time": "09:00",
+    "timezone": "Asia/Shanghai",
+    "status": "ACTIVE"
+  },
+  "last_update_summary": "新增发现树根互联2027届AI测试校招岗位；其余已读取岗位未见实质变化，2个来源超时保留旧核验日期。"
+}

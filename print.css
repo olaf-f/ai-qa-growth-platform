@@ -1,0 +1,5 @@
+@media print {
+  body.printing-resume * { visibility: hidden; }
+  body.printing-resume .resume-paper,body.printing-resume .resume-paper * { visibility: visible; }
+  body.printing-resume .resume-paper { position:absolute;left:0;top:0;width:100%;max-width:none;margin:0;padding:15mm; }
+}
