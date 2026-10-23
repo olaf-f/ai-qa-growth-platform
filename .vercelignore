@@ -1,0 +1,8 @@
+.git
+.learning-data
+config.local.json
+config.local.json.tmp
+__pycache__
+*.pyc
+.vercel
+public

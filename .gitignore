@@ -3,3 +3,5 @@ config.local.json.tmp
 __pycache__/
 *.pyc
 .learning-data/
+.vercel/
+public/
