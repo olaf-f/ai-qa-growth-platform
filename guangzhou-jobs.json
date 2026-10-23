@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "city": "广州",
-  "reviewed_on": "2026-10-22",
+  "reviewed_on": "2026-10-23",
   "scope": "AI测试、大模型评测、AI测试开发；相邻AI应用开发单列",
   "method": "人工检索公开页面并整理事实摘要。不是全量职位库，页面可见不等于雇主确认仍有HC。仅正文可核对的直接相关样本参与技能计数。",
   "jobs": [
@@ -42,8 +42,8 @@
         "评测可观测性"
       ],
       "study_hint": "先做RAG完整项目，再补工具调用、权限测试和批量回归脚本。",
-      "last_verified_on": "2026-10-22",
-      "last_checked_on": "2026-10-22"
+      "last_verified_on": "2026-10-23",
+      "last_checked_on": "2026-10-23"
     },
     {
       "id": "gz-yiyi-aiqa",
@@ -73,8 +73,8 @@
         "质量策略"
       ],
       "study_hint": "准备一份含评分规则、数据覆盖与失败分析的评测报告。",
-      "last_verified_on": "2026-10-22",
-      "last_checked_on": "2026-10-22"
+      "last_verified_on": "2026-10-23",
+      "last_checked_on": "2026-10-23"
     },
     {
       "id": "gz-qwen-ai-auto-20260716",
@@ -109,8 +109,8 @@
         "GUI/App自动化"
       ],
       "study_hint": "适合有测试开发基础后进阶；补一个工具调用或GUI自动化项目。",
-      "last_verified_on": "2026-10-22",
-      "last_checked_on": "2026-10-22"
+      "last_verified_on": "2026-10-23",
+      "last_checked_on": "2026-10-23"
     },
     {
       "id": "gz-qwen-quality-20260828",
@@ -144,8 +144,8 @@
         "GUI/App自动化"
       ],
       "study_hint": "准备可量化的平台或工具落地案例，说明缺陷拦截、覆盖和投入收益；不是入门执行岗。",
-      "last_verified_on": "2026-10-22",
-      "last_checked_on": "2026-10-22",
+      "last_verified_on": "2026-10-23",
+      "last_checked_on": "2026-10-23",
       "official_source_url": "https://talent.quark.cn/off-campus/position-detail?positionId=100018160003",
       "check_note": "正文核验依据社区发布内容，官方正文尚未读取。"
     },
@@ -177,8 +177,8 @@
       ],
       "study_hint": "核对实际工作是AI辅助测试、模型评测，还是传统业务测试为主。",
       "last_verified_on": "2026-10-16",
-      "last_checked_on": "2026-10-22",
-      "check_note": "2026-10-22读取超时，保留原内容与核验日期，不据此认定关闭。"
+      "last_checked_on": "2026-10-23",
+      "check_note": "2026-10-23读取超时，保留原正文及核验日期，不认定关闭。"
     },
     {
       "id": "gz-huaweisoft-ai-app",
@@ -213,8 +213,8 @@
         "部署/数据库"
       ],
       "study_hint": "作为工程能力参考，与AI测试岗位分开比较，不混入测试需求统计。",
-      "last_verified_on": "2026-10-22",
-      "last_checked_on": "2026-10-22"
+      "last_verified_on": "2026-10-23",
+      "last_checked_on": "2026-10-23"
     },
     {
       "id": "gz-yineng-agent",
@@ -249,8 +249,8 @@
       ],
       "study_hint": "观察开发侧需要什么质量证据，补工具调用与文档处理场景的测试。",
       "last_verified_on": "2026-10-16",
-      "last_checked_on": "2026-10-22",
-      "check_note": "2026-10-22读取超时，保留原内容与核验日期，不据此认定关闭。"
+      "last_checked_on": "2026-10-23",
+      "check_note": "2026-10-23官网招聘页可读取，但当前可见正文未找到原智能体岗位；保留旧要求及核验日期，不能据此确认停招。"
     },
     {
       "id": "gz-youdao-aiqatest-intern-expired",
@@ -278,8 +278,8 @@
         "自动化/回归"
       ],
       "study_hint": "只用于了解方向，寻找同类现招职位。",
-      "last_verified_on": "2026-10-22",
-      "last_checked_on": "2026-10-22"
+      "last_verified_on": "2026-10-23",
+      "last_checked_on": "2026-10-23"
     },
     {
       "id": "gz-qwen-drive-quality-20260828",
@@ -316,8 +316,8 @@
         "质量策略"
       ],
       "study_hint": "将Agent测试项目扩展到用例生成、执行与结果判定，保留门禁和线上指标设计。",
-      "last_verified_on": "2026-10-22",
-      "last_checked_on": "2026-10-22",
+      "last_verified_on": "2026-10-23",
+      "last_checked_on": "2026-10-23",
       "check_note": "正文核验依据社区发布内容，官方正文尚未读取。"
     },
     {
@@ -350,9 +350,44 @@
         "Bad Case定位"
       ],
       "study_hint": "先确认毕业届别与实习资格，准备真实业务AI测试项目、脚本、缺陷分析及可验证结果。",
-      "last_verified_on": "2026-10-22",
-      "last_checked_on": "2026-10-22",
+      "last_verified_on": "2026-10-23",
+      "last_checked_on": "2026-10-23",
       "check_note": "南开原页职责与要求栏标题疑似倒置，按正文内容整理。另一高校公告页面标记10月25日过期，不等同本岗位雇主截止日期，未填为deadline。"
+    },
+    {
+      "id": "gz-aidynamic-aiqa-intern-20260622",
+      "company": "掌动智能（官网品牌名）",
+      "title": "AI测试实习生（正文为功能验收，AI范围待确认）",
+      "district": "广州（官网招聘列表注明，行政区未披露）",
+      "type": "校园招聘/实习",
+      "experience": "实习；测试验收经验优先，未明确实习周期",
+      "education": "本科以上，计算机专业（原文口径）",
+      "salary": "未披露",
+      "published_on": "2026-06-22",
+      "deadline": null,
+      "group": "待核验",
+      "verification": "正文已核对",
+      "status": "官网列表及详情可见；AI具体职责、当前HC与实习周期需确认，不纳入AI技能统计",
+      "source_name": "掌动智能 · 官网招聘详情",
+      "source_url": "https://aidynamic.com/home/joinDetail/52",
+      "summary": "虽然职位名含AI，正文主要是版本上线前功能验收、业务场景覆盖、缺陷回归、权限数据检查和风险报告，没有明确LLM或Agent评测要求。",
+      "requirements": [
+        "计算机专业本科以上，熟悉验收流程，可拆解需求、设计用例并独立完成验收。",
+        "维护验收标准，执行变更回归，跟踪缺陷并输出上线风险判断。",
+        "需快速理解产品业务和权限数据，具备问题定位、跟进与沟通能力。"
+      ],
+      "preferred": [
+        "有测试验收经验优先。"
+      ],
+      "skills": [
+        "业务测试",
+        "自动化/回归",
+        "质量策略"
+      ],
+      "study_hint": "适合观察AI产品团队的基础质量岗位；投递前核实是否涉及LLM/Agent评测，不能只凭岗位名判断转型方向。",
+      "last_verified_on": "2026-10-23",
+      "last_checked_on": "2026-10-23",
+      "check_note": "发布日期及广州地点来自官网招聘列表 https://aidynamic.com/home/join 。正文中的“实习3个月”是投递标题示例，不当成最低实习要求；未明确自动化脚本要求，回归标签不代表自动化为硬条件。"
     }
   ],
   "monitor": {
@@ -361,5 +396,5 @@
     "timezone": "Asia/Shanghai",
     "status": "ACTIVE"
   },
-  "last_update_summary": "新增发现树根互联2027届AI测试校招岗位；其余已读取岗位未见实质变化，2个来源超时保留旧核验日期。"
+  "last_update_summary": "新增掌动智能实习线索：官网正文偏功能验收，AI职责待确认，未计入技能统计。现有已核实直接岗位未见明显变化。"
 }

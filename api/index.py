@@ -5,13 +5,18 @@ import sys
 import hmac
 from pathlib import Path
 from http.server import BaseHTTPRequestHandler
-from urllib.parse import urlparse
+from urllib.parse import urlparse, parse_qs
 from email.parser import BytesParser
 from email.policy import default
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import server
 
 class handler(BaseHTTPRequestHandler):
+    def endpoint(self):
+        parsed = urlparse(self.path)
+        endpoint = parse_qs(parsed.query).get('endpoint', [''])[0]
+        return '/api/' + endpoint if endpoint else parsed.path
+
     def reply(self, code, data):
         body = json.dumps(data, ensure_ascii=False).encode()
         self.send_response(code)
@@ -21,7 +26,7 @@ class handler(BaseHTTPRequestHandler):
         self.wfile.write(body)
 
     def do_GET(self):
-        if urlparse(self.path).path == '/api/status':
+        if self.endpoint() == '/api/status':
             key, model = server.config()
             return self.reply(200, {'configured': bool(key and os.getenv('TESTLAB_ACCESS_TOKEN')), 'provider': 'DeepSeek', 'model': model, 'cloud': True})
         self.reply(404, {'error': '接口不存在。'})
@@ -36,7 +41,7 @@ class handler(BaseHTTPRequestHandler):
             if not 0 < length <= 4 * 1024 * 1024:
                 return self.reply(413, {'error': '在线上传不能超过4MB。'})
             body = self.rfile.read(length)
-            path = urlparse(self.path).path
+            path = self.endpoint()
             if path == '/api/extract':
                 content_type = self.headers.get('Content-Type', '')
                 if not content_type.startswith('multipart/form-data'):
