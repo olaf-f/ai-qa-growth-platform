@@ -1,11 +1,26 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "python build_vercel.py",
-  "outputDirectory": "public",
-  "functions": { "api/index.py": { "maxDuration": 60 } },
-  "rewrites": [{ "source": "/api/:path*", "destination": "/api/index?endpoint=:path*" }],
-  "headers": [{ "source": "/(.*)", "headers": [
-    { "key": "X-Content-Type-Options", "value": "nosniff" },
-    { "key": "Referrer-Policy", "value": "no-referrer" }
-  ] }]
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "public"
+      }
+    },
+    {
+      "src": "api/index.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/index.py?endpoint=$1"
+    },
+    {
+      "handle": "filesystem"
+    }
+  ]
 }

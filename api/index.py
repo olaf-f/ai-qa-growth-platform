@@ -9,7 +9,7 @@ from urllib.parse import urlparse, parse_qs
 from email.parser import BytesParser
 from email.policy import default
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-import server
+import platform_backend as server
 
 class handler(BaseHTTPRequestHandler):
     def endpoint(self):

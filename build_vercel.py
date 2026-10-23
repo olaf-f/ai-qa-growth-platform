@@ -13,3 +13,5 @@ p = PUBLIC / 'index.html'
 html = p.read_text(encoding='utf-8')
 html = html.replace('</body>', '<script src="cloud.js"></script></body>')
 p.write_text(html, encoding='utf-8')
+
+print("Public build: " + ", ".join(sorted(x.name for x in PUBLIC.iterdir())))

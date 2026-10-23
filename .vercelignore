@@ -5,4 +5,7 @@ config.local.json.tmp
 __pycache__
 *.pyc
 .vercel
-public
+
+# Local launchers must not be detected as a cloud web framework.
+server.py
+setup.py
