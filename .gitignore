@@ -5,6 +5,8 @@ __pycache__/
 .learning-data/
 .vercel/
 public/
+vendor/
+node_modules/
 
 .vercel
 .env*
